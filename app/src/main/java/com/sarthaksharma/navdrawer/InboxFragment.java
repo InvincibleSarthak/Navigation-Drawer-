@@ -22,6 +22,8 @@ public class InboxFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+        ((MainActivity)getActivity()).setActionBarTitle("Inbox");
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_inbox, container, false);
     }
